@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentLogin_layout"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F5CBF9F2"
+    tools:context=".LoginFragment">
+
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisissez votre email"
+        android:textColor="#009688"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="#009688"
+        android:textSize="20dp"
+        android:hint="Saisissez votre mot de passe" />
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmer"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        android:background="#77DDD3"/>
+
+
+
+</LinearLayout>
